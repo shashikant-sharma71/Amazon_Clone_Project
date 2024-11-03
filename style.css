@@ -1,0 +1,311 @@
+* {
+    margin: 0px;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+                                            /* Box 1 */
+
+.amg-logo {
+    height: 50px; 
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid #fff;
+    border-radius: 2.5px;
+}
+
+
+
+
+                                            /* Box 2 */
+
+.add-first {
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 15px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+                                            /* Box 3 */
+
+.nav-search {
+    display: flex;
+    background: rgb(243, 126, 145);
+    width: 710px;
+    height: 40px;
+    border-radius: 3px;
+    border: 3px;
+    border-color: pink;
+    font-size: 20px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 60px;
+    padding: 5px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    font-size: 12px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    padding: 1px 6px 1px 6px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+
+
+
+                                            /* Box 4 */
+.lang-icon {
+    display: flex;
+}
+
+.language {
+    font-size: 16px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+
+                                            /* Box 5 */
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+    background: none;
+    border: none;
+    color: white;
+}
+
+
+
+                                            /* Box 6 */
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+
+                                            /* Panels */
+.navbar2 {
+    height: 39px;
+    width: 100%;
+    background-color: #117A54;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.panel-icon {
+    display: flex;
+    margin-left: 5px;
+    padding: 10px 11px;
+}
+
+.all {
+    margin-left: 3px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.panel-options p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-options {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+                       
+
+
+.header-slider ul{
+    display: flex;
+    overflow-y: hidden;
+
+}
+.header-img{
+    height: 430 px;
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom, #000000 50%,transparent 100%);
+}
+.header-slider a{
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    padding: 5vw 1vw;
+    background: #ffffff4f;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.Control_next{
+    right: 0;
+   
+}
+
+
+  /* Shop Cards  First Line  */
+
+.shop-cards{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+   
+    
+
+}
+.box{
+    margin-top: -20vw;
+
+    height:380px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    z-index: 1;
+    
+}
+.box-img{
+    height: 20px;
+    background-size:cover ;
+    margin-left: 10px;
+    margin-right: 10px;
+    display:flex;
+    
+  
+
+
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+.box-content p{
+    color: #007185;
+}
+
+
+
+                                   /* Shop Cards  Second  and Third Line  */
+
+
+.shop-cards1{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.boxA{
+    margin-top: 10px;
+
+    height:300px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+   
+
+    
+}
+.box-img-c{
+    height: 250px;
+    background-size:cover;
+   
+  
+}
+.Shop-card2{
+    height:250px;
+    width: 100%;
+    background-color: #ff9393;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+/* shop card 2 */
+
+
+
+
+
