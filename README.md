@@ -1,1 +1,1 @@
-# Amazon_Clone_Projec
+# Amazon_Clone_Project
